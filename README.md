@@ -25,7 +25,13 @@
 
 <p>IV. <strong>Content Based Recommendations</strong><br></p>
 
-<p>Given the amount of content available for each article, there are a number of different ways in which someone might choose to implement a content based recommendations system.  Using your NLP skills, you might come up with some extremely creative ways to develop a content based recommendation system.  You are encouraged to complete a content based recommendation system, but not required to do so to complete this project.</p>
+<p>D
+Many machine learning algorithms require the input to be represented as a fixed-length feature vector. When it comes to texts, one of the most common fixed-length features is bag-of-words. Despite their popularity, bag-of-words features have two major weaknesses: they lose the ordering of the words and they also ignore semantics of the words. For example, "powerful," "strong" and "Paris" are equally distant. Paragraph Vector is an unsupervised algorithm that learns fixed-length feature representations from variable-length pieces of texts, such as sentences, paragraphs, and documents. The algorithm represents each document by a dense vector which is trained to predict words in the document. Its construction gives our algorithm the potential to overcome the weaknesses of bag-of-words models. Empirical results show that Paragraph Vectors outperform bag-of-words models as well as other techniques for text representations. Finally, it achieve new state-of-the-art results on several text classification and sentiment analysis tasks.
+
+Doc2vec (aka paragraph2vec, aka sentence embeddings) modifies the word2vec algorithm to unsupervised learning of continuous representations for larger blocks of text, such as sentences, paragraphs or entire documents.
+
+https://arxiv.org/abs/1405.4053   
+https://rare-technologies.com/doc2vec-tutorial/</p>
 
 <p>V. <strong>Matrix Factorization</strong><br></p>
 
